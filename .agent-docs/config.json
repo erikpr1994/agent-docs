@@ -1,0 +1,10 @@
+{
+  "resolvers": {
+    "llmsTxt": true,
+    "context7": true,
+    "mcp": true
+  },
+  "concurrency": 10,
+  "exclude": [],
+  "resources": []
+}

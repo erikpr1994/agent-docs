@@ -1,0 +1,49 @@
+{
+  "name": "agent-docs",
+  "version": "0.1.0",
+  "description": "Auto-discover and index library documentation for AI coding agents",
+  "type": "module",
+  "bin": {
+    "agent-docs": "./dist/bin/agent-docs.js"
+  },
+  "exports": {
+    ".": "./dist/src/index.js",
+    "./mcp": "./dist/src/mcp.js"
+  },
+  "files": [
+    "dist",
+    "data"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "node --test dist/test/**/*.test.js",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "documentation",
+    "claude",
+    "cursor",
+    "copilot",
+    "mcp",
+    "llms-txt",
+    "context7"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^4.3.6"
+  }
+}

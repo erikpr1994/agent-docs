@@ -1,0 +1,39 @@
+{
+  "better-auth": {
+    "command": "npx auth@latest mcp --claude-code",
+    "endpoint": "https://mcp.better-auth.com/mcp"
+  },
+  "@prisma/client": {
+    "command": "npx prisma mcp"
+  },
+  "prisma": {
+    "command": "npx prisma mcp"
+  },
+  "@playwright/test": {
+    "command": "npx @playwright/mcp@latest"
+  },
+  "playwright": {
+    "command": "npx @playwright/mcp@latest"
+  },
+  "@supabase/supabase-js": {
+    "endpoint": "https://mcp.supabase.com"
+  },
+  "@sentry/node": {
+    "endpoint": "https://mcp.sentry.dev/sse"
+  },
+  "@sentry/react": {
+    "endpoint": "https://mcp.sentry.dev/sse"
+  },
+  "stripe": {
+    "command": "npx @stripe/mcp --tools=all"
+  },
+  "@linear/sdk": {
+    "command": "npx @anthropic/linear-mcp-server"
+  },
+  "firebase": {
+    "command": "npx firebase-tools@latest experimental:mcp"
+  },
+  "firebase-admin": {
+    "command": "npx firebase-tools@latest experimental:mcp"
+  }
+}

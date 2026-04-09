@@ -1,0 +1,4 @@
+node_modules/
+dist/
+.agent-docs/.cache/
+*.tsbuildinfo
