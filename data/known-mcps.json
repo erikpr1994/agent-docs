@@ -18,10 +18,19 @@
   "@supabase/supabase-js": {
     "endpoint": "https://mcp.supabase.com"
   },
+  "supabase": {
+    "endpoint": "https://mcp.supabase.com"
+  },
   "@sentry/node": {
     "endpoint": "https://mcp.sentry.dev/sse"
   },
   "@sentry/react": {
+    "endpoint": "https://mcp.sentry.dev/sse"
+  },
+  "@sentry/nextjs": {
+    "endpoint": "https://mcp.sentry.dev/sse"
+  },
+  "@sentry/browser": {
     "endpoint": "https://mcp.sentry.dev/sse"
   },
   "stripe": {
@@ -35,5 +44,47 @@
   },
   "firebase-admin": {
     "command": "npx firebase-tools@latest experimental:mcp"
+  },
+  "@notionhq/client": {
+    "command": "npx @notionhq/notion-mcp-server"
+  },
+  "next": {
+    "endpoint": "http://localhost:3000/_next/mcp"
+  },
+  "mongodb": {
+    "command": "npx mongodb-mcp-server"
+  },
+  "mongoose": {
+    "command": "npx mongodb-mcp-server"
+  },
+  "redis": {
+    "command": "npx @redis/mcp-redis"
+  },
+  "ioredis": {
+    "command": "npx @redis/mcp-redis"
+  },
+  "@slack/web-api": {
+    "command": "npx @modelcontextprotocol/server-slack"
+  },
+  "@slack/bolt": {
+    "command": "npx @modelcontextprotocol/server-slack"
+  },
+  "twilio": {
+    "command": "npx @anthropic/twilio-mcp-server"
+  },
+  "puppeteer": {
+    "command": "npx @modelcontextprotocol/server-puppeteer"
+  },
+  "puppeteer-core": {
+    "command": "npx @modelcontextprotocol/server-puppeteer"
+  },
+  "@cloudflare/workers-types": {
+    "command": "npx @anthropic/cloudflare-mcp-server"
+  },
+  "wrangler": {
+    "command": "npx @anthropic/cloudflare-mcp-server"
+  },
+  "@vercel/sdk": {
+    "command": "npx @anthropic/vercel-mcp-server"
   }
 }

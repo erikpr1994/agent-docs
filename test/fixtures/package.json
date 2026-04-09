@@ -1,0 +1,13 @@
+{
+  "name": "test-project",
+  "dependencies": {
+    "react": "^19.0.0",
+    "better-auth": "^1.2.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "typescript": "^5.4.0",
+    "@types/node": "^22.0.0"
+  }
+}
